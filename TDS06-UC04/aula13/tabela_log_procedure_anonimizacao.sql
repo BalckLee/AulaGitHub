@@ -1,0 +1,7 @@
+SELECT TOP (1000) [id]
+      ,[tabelaAfetada]
+      ,[operacao]
+      ,[usuarioSGBD]
+      ,[dataHora]
+      ,[detalhes]
+  FROM [PizzariaDB].[dbo].[Log_Auditoria]
